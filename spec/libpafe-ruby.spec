@@ -2,7 +2,7 @@
 
 Summary: Ruby bindings for the libpafe
 Name: libpafe-ruby
-Version: 0.0.7
+Version: 0.0.8
 Release: 0%{?dist}
 License: GPLv2
 Group: System Environment/Libraries
@@ -19,8 +19,6 @@ BuildRequires: ruby-devel
 BuildRequires: libusb-devel
 BuildRequires: libpafe-devel
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
-
-Patch0: libpafe-ruby-0.0.7-fix-each-to-foreach.patch
 
 %description
 Ruby bindings for the libpafe library

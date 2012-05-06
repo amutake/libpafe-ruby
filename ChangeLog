@@ -1,3 +1,7 @@
+2012-05-06  Hiroyuki Ito  <ZXB01226 at nifty.com>
+
+	* Version 0.0.8 release.
+
 2011-08-14  Hiroyuki Ito  <ZXB01226 at nifty.com>
 
 	* sample/suica.rb (Suica#parse_history): fix index of the array.
