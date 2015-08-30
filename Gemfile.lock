@@ -1,0 +1,20 @@
+PATH
+  remote: .
+  specs:
+    libpafe (0.0.8)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (10.4.2)
+    rake-compiler (0.9.5)
+      rake
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.9)
+  libpafe!
+  rake (~> 10.0)
+  rake-compiler
